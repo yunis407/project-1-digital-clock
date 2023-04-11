@@ -1,0 +1,18 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .clock {
+    display: flex;
+    font-size: 10rem;
+    font-family: monospace;
+    color: #333;
+  }
+  
+  .clock span:not(:last-child) {
+    margin-right: 0.2em;
+  }
+  

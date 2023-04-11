@@ -1,0 +1,13 @@
+{
+    "name": "digital-clock",
+    "version": "1.0.0",
+    "description": "A simple digital clock",
+    "main": "index.js",
+    "scripts": {
+        "start": "json-server --watch db.json --port 3001",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "json-server": "^0.17.3"
+    }
+}
